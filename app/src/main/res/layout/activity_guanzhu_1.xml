@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_margin="15dp"
+        android:orientation="horizontal"
+        android:background="#FFF">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp">
+            <CheckBox
+                android:id="@+id/gz_gl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </FrameLayout>
+        <!--<com.example.family.myapplicationtaobao.CircleImageView-->
+            <!--android:id="@+id/gz_tp"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:src="@mipmap/default_head"-->
+            <!--app:civ_border_width="0dp"-->
+            <!--app:civ_border_color="@color/colorAccent"-->
+            <!--tools:ignore="MissingConstraints" />-->
+        <ImageView
+            android:id="@+id/gz_tp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/gz_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:textColor="#333333"
+            android:textSize="20dp"
+            android:text="菜鸟驿站"/>
+    </LinearLayout>
+</LinearLayout>

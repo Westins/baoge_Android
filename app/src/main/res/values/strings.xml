@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyApplicationTaoBao</string>
+    <!--<string name="httpzy">http://42.49.140.240:8080/Treasure_Pavilion/</string>-->
+    <string name="httpzy">http://220.202.158.208:8080/Treasure_Pavilion/</string>
+</resources>
